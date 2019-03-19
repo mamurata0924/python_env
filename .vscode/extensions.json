@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+      "ms-ceintl.vscode-language-pack-ja",
+      "vscode-icons-team.vscode-icons",
+      "coenraads.bracket-pair-colorizer",
+      "ms-python.python",
+      "ionutvmi.path-autocomplete",
+      "ibm.output-colorizer",
+      "njpwerner.autodocstring",
+      "editorconfig.editorconfig"
+  ]
+}

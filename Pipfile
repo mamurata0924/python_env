@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+isort = "*"
+mypy = "*"
+autopep8 = "*"
+
+[packages]
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+start = "python main.py runserver"
+test = "python -m unittest discover -v"
+format = "autopep8 -ivr ."
+sort = "isort -rc ."
+lint = "flake8 --show-source ."
